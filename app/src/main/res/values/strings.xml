@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MidTown Studio</string>
+    <string name="whatsapp_no">WhatsApp no está instalado en este dispositivo.</string>
+    <string name="logo_midtown">Logo MidTown</string>
+    <string name="logotipo_de_midtownstudio">Logotipo de MidTownStudio</string>
+</resources>
