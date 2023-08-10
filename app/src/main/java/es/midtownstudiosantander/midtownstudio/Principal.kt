@@ -142,7 +142,7 @@ fun Principal() {
                     FloatingActionButton(
                         onClick = {
                             val phoneNumber =
-                                "34681661095" // Cambia esto a tu número completo, incluyendo el código de país
+                                "xxxxxxxxxxxx" // Cambia esto a tu número completo, incluyendo el código de país
                             val intent = Intent(Intent.ACTION_VIEW)
                             intent.data = Uri.parse("whatsapp://send?phone=$phoneNumber")
                             try {
