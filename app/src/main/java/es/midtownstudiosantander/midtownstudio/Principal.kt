@@ -109,6 +109,7 @@ fun Principal() {
             modifier = Modifier
                 .fillMaxSize(),
             topBar = {
+
                 if (isLoaded.value) {
                     TopBarApp(
                         contador = contadorCarrito.value,

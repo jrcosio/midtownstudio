@@ -81,38 +81,7 @@ fun TopBarApp(contador: String, onCarrito: () -> Unit, onMenu: () -> Unit) {
                     }
                 }
             }
-//            val textoNoWhatsapp = stringResource(R.string.whatsapp_no)
-//            IconButton(onClick = {
-//                val phoneNumber =
-//                    "34681661095" // Cambia esto a tu número completo, incluyendo el código de país
-//                val intent = Intent(Intent.ACTION_VIEW)
-//                intent.data = Uri.parse("whatsapp://send?phone=$phoneNumber")
-//                try {
-//                    context.startActivity(intent)
-//                } catch (e: Exception) {
-//                    // Mostrando un mensaje si WhatsApp no está instalado
-//                    Toast.makeText(
-//                        context,
-//                        textoNoWhatsapp,
-//                        Toast.LENGTH_LONG
-//                    ).show()
-//                }
-//            }) {
-//                Card(
-//                    modifier = Modifier.fillMaxSize(),
-//                    colors = CardDefaults.cardColors(Green40)
-//                ) {
-//                    Image(
-//                        painter = painterResource(id = R.drawable.icon_whatsapp),
-//                        contentDescription = "Whatsapp",
-//                        modifier = Modifier
-//                            .fillMaxSize()
-//                            .padding(2.dp)
-//                    )
-//                }
-//            }
         },
         colors = TopAppBarDefaults.centerAlignedTopAppBarColors(containerColor = Purple40)
-
     )
 }
